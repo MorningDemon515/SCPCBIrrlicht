@@ -292,32 +292,32 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{83DC6274-B2EF-421B-A092-BB1599A4F711}</ProjectGuid>
     <RootNamespace>SCPCBIrrlicht</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -348,10 +348,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenAL 1.1 SDK\include;Libs\irrlicht-code-5113-branches-shader-pipeline\irrDynamics;Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont;Libs\bullet3-2.85.1\src;Libs\FreeType\include\freetype2;Libs\FreeType\include;Libs\irrlicht-code-5113-branches-shader-pipeline\include;Libs\oggVorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Libs\OpenAL 1.1 SDK\include;Libs\irrlicht-code-5113-branches-shader-pipeline\irrDynamics;Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont;Libs\bullet3-2.85.1\src;Libs\FreeType\include\freetype2;Libs\FreeType\include;Libs\irrlicht-code-5113-branches-shader-pipeline\include;Libs\oggVorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Libs\FreeType\lib\freetype.lib;Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;Libs\oggVorbis\lib\ogg\libogg_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Libs\FreeType\lib\freetype.lib;Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;Libs\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;Libs\oggVorbis\lib\ogg\libogg_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -368,14 +368,15 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\OpenAL 1.1 SDK\include;Libs\irrlicht-code-5113-branches-shader-pipeline\irrDynamics;Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont;Libs\bullet3-2.85.1\src;Libs\FreeType\include\freetype2;Libs\FreeType\include;Libs\irrlicht-code-5113-branches-shader-pipeline\include;Libs\oggVorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Libs\OpenAL 1.1 SDK\include;Libs\irrlicht-code-5113-branches-shader-pipeline\irrDynamics;Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont;Libs\bullet3-2.85.1\src;Libs\FreeType\include\freetype2;Libs\FreeType\include;Libs\irrlicht-code-5113-branches-shader-pipeline\include;Libs\oggVorbis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Libs\FreeType\lib\freetype.lib;Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Libs\oggVorbis\lib\ogg\libogg_static.lib;Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;Libs\oggVorbis\lib\vorbis\libvorbisfile_static.lib;C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreSpecificDefaultLibraries>libcmtd.lib;msvcrtd.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalDependencies>Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Libs\FreeType\lib\freetype.lib;Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Libs\oggVorbis\lib\ogg\libogg_static.lib;Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;Libs\oggVorbis\lib\vorbis\libvorbisfile_static.lib;Libs\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;msvcrt.lib;libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
