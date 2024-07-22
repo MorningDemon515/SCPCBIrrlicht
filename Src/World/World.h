@@ -275,7 +275,7 @@ class World : public GameObject {
         float stepsToMake = 0.f;
     public:
         //main
-        World(unsigned int width,unsigned int height,bool fullscreen = false);
+        World(const wchar_t* title,unsigned int width,unsigned int height,bool fullscreen = false);
         ~World();
 
         //float getFPSfactor();

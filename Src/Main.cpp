@@ -13,10 +13,12 @@ http://creativecommons.org/licenses/by-sa/3.0/
 
 
 Libraries used:
-  - Irrlicht Engine: http://irrlicht.sourceforge.net/
-  - Bullet Physics: http://bulletphysics.org/
-  - OpenAL: http://openal.org/
-  - FreeType: http://www.freetype.org/
+  - [Irrlicht Engine, SVN revision 5113, shader-pipeline branch](http://sourceforge.net/p/irrlicht/code/5113/tree/branches/shader-pipeline/)
+  - [Bullet Physics 2.85.1](https://github.com/bulletphysics/bullet3/releases/tag/2.85.1)
+  - [OpenAL 1.1](http://openal.org/downloads/)
+  - [FreeType 2.13.2](https://github.com/freetype/freetype/releases/tag/VER-2-13-2)
+  - [libogg 1.3.5](https://github.com/xiph/ogg/releases/tag/v1.3.5) 
+  - [libvorbis 1.3.7](https://github.com/xiph/vorbis/releases/tag/v1.3.7)
 **/
 
 #include <iostream>
@@ -32,7 +34,7 @@ Libraries used:
 
 int main() {
 
-    World* mainWorld = new World(1280,720,false);
+    World* mainWorld = new World(L"SCP - Containment Breach Irrlicht", 1280, 720, false);
 
     while (mainWorld->run()) {};
 

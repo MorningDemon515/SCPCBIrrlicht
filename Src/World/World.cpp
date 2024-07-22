@@ -155,7 +155,7 @@ void World::initBasics() {
     dynamics->setGravity(-100*RoomScale);
 }
 
-World::World(unsigned int width,unsigned int height,bool fullscreen) {
+World::World(const wchar_t *title,unsigned int width,unsigned int height,bool fullscreen) {
     mainWidth = width; mainHeight = height; isFullscreen = fullscreen;
     initBasics();
 
@@ -532,6 +532,7 @@ World::World(unsigned int width,unsigned int height,bool fullscreen) {
 
 	irrDevice->getCursorControl()->setVisible(false);
 	irrDevice->getCursorControl()->setPosition((irr::s32)mainWidth/2,(irr::s32)mainHeight/2);
+    irrDevice->setWindowCaption(title);
 
     irr::scene::IMesh* mesh1 = irrSmgr->getMesh("GFX/NPCs/scp-066.b3d");
 
