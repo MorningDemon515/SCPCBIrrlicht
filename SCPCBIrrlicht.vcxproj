@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Src\Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont\CGUITTFont.h" />
     <ClInclude Include="Src\Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont\irrUString.h" />
     <ClInclude Include="Src\Libs\irrlicht-code-5113-branches-shader-pipeline\irrDynamics\irrDynamics.h" />
@@ -289,6 +290,12 @@
     <ClCompile Include="Src\World\SharedAI.cpp" />
     <ClCompile Include="Src\World\World.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SCPCBIrrlicht.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ICON\scpcb.ico" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{83DC6274-B2EF-421B-A092-BB1599A4F711}</ProjectGuid>
     <RootNamespace>SCPCBIrrlicht</RootNamespace>
@@ -377,6 +384,7 @@
       <AdditionalDependencies>Src\Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Src\Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Src\Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Src\Libs\FreeType\lib\freetype.lib;Src\Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Src\Libs\oggVorbis\lib\ogg\libogg.lib;Src\Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;Src\Libs\oggVorbis\lib\vorbis\libvorbisfile_static.lib;Src\Libs\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;msvcrt.lib;libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

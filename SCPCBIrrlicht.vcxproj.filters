@@ -480,6 +480,9 @@
     <ClInclude Include="Src\World\World.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Libs\irrlicht-code-5113-branches-shader-pipeline\CGUITTFont\CGUITTFont.cpp">
@@ -878,5 +881,15 @@
     <ClCompile Include="Src\World\World.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SCPCBIrrlicht.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ICON\scpcb.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
