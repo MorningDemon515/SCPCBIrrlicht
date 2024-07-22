@@ -15,9 +15,9 @@ Libraries used:
   - [Irrlicht Engine, SVN revision 5113, shader-pipeline branch](http://sourceforge.net/p/irrlicht/code/5113/tree/branches/shader-pipeline/)
   - [Bullet Physics 2.85.1](https://github.com/bulletphysics/bullet3/releases/tag/2.85.1)
   - [OpenAL 1.1](http://openal.org/downloads/)
-  - [FreeType(version unknown?)](http://www.freetype.org/)
-  - [libogg 1.3.2](https://github.com/xiph/ogg/releases/tag/v1.3.2) 
-  - [libvorbis 1.3.5](https://github.com/xiph/vorbis/releases/tag/v1.3.5)
+  - [FreeType 2.13.2](https://github.com/freetype/freetype/releases/tag/VER-2-13-2)
+  - [libogg 1.3.5](https://github.com/xiph/ogg/releases/tag/v1.3.5) 
+  - [libvorbis 1.3.7](https://github.com/xiph/vorbis/releases/tag/v1.3.7)
   
 ### Requisite
 
