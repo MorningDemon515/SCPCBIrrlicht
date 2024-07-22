@@ -374,7 +374,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>Src\Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Src\Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Src\Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Src\Libs\FreeType\lib\freetype.lib;Src\Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Src\Libs\oggVorbis\lib\ogg\libogg_static.lib;Src\Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;Src\Libs\oggVorbis\lib\vorbis\libvorbisfile_static.lib;Src\Libs\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;msvcrt.lib;libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Src\Libs\bullet3-2.85.1\bin\BulletCollision_vs2010.lib;Src\Libs\bullet3-2.85.1\bin\BulletDynamics_vs2010.lib;Src\Libs\bullet3-2.85.1\bin\LinearMath_vs2010.lib;Src\Libs\FreeType\lib\freetype.lib;Src\Libs\irrlicht-code-5113-branches-shader-pipeline\lib\Win32-visualstudio\Irrlicht.lib;Src\Libs\oggVorbis\lib\ogg\libogg.lib;Src\Libs\oggVorbis\lib\vorbis\libvorbis_static.lib;Src\Libs\oggVorbis\lib\vorbis\libvorbisfile_static.lib;Src\Libs\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib;msvcrt.lib;libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>
       </IgnoreSpecificDefaultLibraries>
     </Link>

@@ -1,7 +1,0 @@
-﻿  bitwise.c
-  framing.c
-F:\._MyWorkStation\SCPCBIrrlicht-msvc\Libs\buildmsvc2019\src\oggVorbis\libogg\src\framing.c(733,24): warning C4456: “page”的声明隐藏了上一个本地声明
-F:\._MyWorkStation\SCPCBIrrlicht-msvc\Libs\buildmsvc2019\src\oggVorbis\libogg\src\framing.c(678,18): message : 参见“page”的声明
-F:\._MyWorkStation\SCPCBIrrlicht-msvc\Libs\buildmsvc2019\src\oggVorbis\libogg\src\framing.c(734,15): warning C4456: “bytes”的声明隐藏了上一个本地声明
-F:\._MyWorkStation\SCPCBIrrlicht-msvc\Libs\buildmsvc2019\src\oggVorbis\libogg\src\framing.c(680,8): message : 参见“bytes”的声明
-  libogg_static.vcxproj -> F:\._MyWorkStation\SCPCBIrrlicht-msvc\Libs\buildmsvc2019\src\oggVorbis\libogg\win32\VS2010\Win32\Release\libogg_static.lib
