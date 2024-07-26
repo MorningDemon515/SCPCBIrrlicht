@@ -28,7 +28,8 @@ Libraries used:
 1. Clone the repository
 2. Open the console of the repository directory
 3. input:
-4. mkdir build
-5. cd build
-6. cmake -G "Visual Studio 16 2019" -A Win32 ..
-7. cmake --build . --config Release
+ - mkdir build
+ - cd build
+ - cmake -G "Visual Studio 16 2019" -A Win32 ..
+ - cmake --build . --config Release
+4. Open build\Release File, Find SCPCBIrrlicht.exe And Copy  Src\Libs\irrlicht-code-5113-branches-shader-pipeline\bin\Win32-VisualStudio\d3dcompiler_47.dll and Irrlicht.dll
