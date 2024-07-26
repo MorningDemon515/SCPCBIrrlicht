@@ -26,6 +26,9 @@ Libraries used:
 ### How to compile
 
 1. Clone the repository
-2. Open SCPCBIrrlicht.sln in Visual Studio 2019 
-3. Change configuration to Release x86
-4. Hit F7, now you're good to go
+2. Open the console of the repository directory
+3. input:
+4. mkdir build
+5. cd build
+6. cmake -G "Visual Studio 16 2019" -A Win32 ..
+7. cmake --build . --config Release
